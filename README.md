@@ -29,7 +29,7 @@
 - **Preprocessing Images**
    - Rescaling, Horizontal flip and ZCA whitening is done via keras preprocessing module.
 
-# Conclusion
+## Conclusion
 
 - The model is trained and saved into disk with a training accuracy of 90% and test accuracy of ~ 87% .
 - The Model did *overfit*, dropout or other regularising techniques could be used to avoid it.

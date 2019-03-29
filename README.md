@@ -16,12 +16,12 @@
 
 ## Insights
 
-- **Label Extractor Method**
+- **Label Extractor Method** [See the screenshot in issue's tab]
    - Function is utilized to extract the labels from the given file names from train and test directories.
    - These labels are stored in numpy arrays and saved in disk for future uses.
    - Similarly, train and test images are also converted into np arrays and saved into disk.
 
--  **Model Architecture**
+-  **Model Architecture** [See the screenshot in issue's tab]
     - Resnet-50 is used as the task included images and it’s the state-of-the-art CNN model.
     - For binary classification, the final layer is changed into a sigmoid unit. 
     - Loss function and optimizers are also set accordingly.
